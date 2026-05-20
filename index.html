@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhairya Patel | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link href="home.html" rel="canonical">
+  <link href="about.html" rel="alternate" />
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-ring"></div>
+    <p>Loading Portfolio...</p>
+  </div>
+
+  <canvas id="particles"></canvas>
+  <div class="cursor-glow"></div>
+  <div class="scroll-progress"></div>
+
+  <header class="navbar">
+    <div class="logo">DP</div>
+    <nav class="nav-links" id="navLinks">
+       <a href="home.html" class="nav-home">Home</a>
+      <a href="about.html" class="nav-home">About</a>
+      <a href="#social">Social</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+     
+    </nav>
+
+    <div class="nav-actions">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home.html" class="hero section">
+      <div class="hero-text reveal">
+        <p class="hero-tag">Creative Frontend Developer</p>
+        <h1>Hello, I'm <span>Dhairya Patel</span></h1>
+        <h2><span id="typing"></span></h2>
+        <p class="hero-description">
+          I build modern, responsive and interactive digital experiences for the web
+          with creative visuals, smooth animations and performance-focused design.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary-btn">View Projects</a>
+          <a href="#contact" class="btn secondary-btn">Contact Me</a>
+        </div>
+
+        <div class="hero-social">
+          <a href="https://github.com/Dhairyapatel2" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/dhairya-patel-891a383a7" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/dhairya__ji/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="visual-wrap">
+          <div class="connector c1"></div>
+          <div class="connector c2"></div>
+          <div class="connector c3"></div>
+
+          <div class="ring ring1"></div>
+          <div class="ring ring2"></div>
+          <div class="ring ring3"></div>
+          <div class="ring ring4"></div>
+
+          <div class="code-label html-label">&lt;HTML&gt;</div>
+          <div class="code-label css-label">CSS</div>
+          <div class="code-label js-label">JS</div>
+          <div class="code-label ui-label">UI/UX</div>
+
+          <div class="web-card">
+            <h3>WEB<br>DESIGN</h3>
+          </div>
+
+          <div class="laptop">
+            <div class="laptop-screen">
+              <div class="code-lines">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="laptop-base"></div>
+          </div>
+
+          <div class="mobile-ui">
+            <div class="mobile-lines">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+
+          <div class="floating-code code-block-1">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="floating-code code-block-2">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="floating-code code-block-3">
+            <span></span><span></span><span></span>
+          </div>
+
+          <div class="wave-bar"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about.html" class="about section reveal">
+      <div class="section-header">
+        <p class="section-tag">About Me</p>
+      </div>
+
+      <div class="about-grid glass-card">
+        <div class="about-image">
+           <div class="image-circle photo-frame">
+                <img src="letters-dp-name-initials-modern-260nw-2214036813-removebg-preview.png">
+            </div>
+        </div>
+
+        
+        <div class="about-content">
+          <p>
+            Hello! I'm <span>DHAIRYA PATEL</span>, a passionate web developer who enjoys
+            creating modern, responsive and visually engaging websites.
+          </p>
+          <p>
+            I love blending clean UI, animation, interactivity and structured code to build
+            websites that feel polished and professional.
+          </p>
+          <p>
+            Currently, I am sharpening my skills in HTML, CSS and JavaScript while building
+            practical portfolio and frontend projects.
+          </p>
+
+          <div class="about-stats">
+            <div>
+              <h3>10+</h3>
+              <p>Projects Built</p>
+            </div>
+            <div>
+              <h3>100%</h3>
+              <p>Responsive Focus</p>
+            </div>
+            <div>
+              <h3>24/7</h3>
+              <p>Learning Mode</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="social" class="social-section section reveal">
+      <div class="section-header">
+        <p class="section-tag">Social Presence</p>
+        <h2>You can also connect with me here.</h2>
+      </div>
+
+      <div class="social-grid">
+        <a class="social-card tilt-card" href="https://github.com/Dhairyapatel2" target="_blank">
+          <i class="fab fa-github"></i>
+          <h3>GitHub</h3>
+          <p>See my coding projects and frontend builds.</p>
+        </a>
+
+        <a class="social-card tilt-card" href="https://www.linkedin.com/in/dhairya-patel-891a383a7" target="_blank">
+          <i class="fab fa-linkedin"></i>
+          <h3>LinkedIn</h3>
+          <p>Connect with me professionally and follow my work.</p>
+        </a>
+
+        <a class="social-card tilt-card" href="https://www.instagram.com/dhairya__ji/" target="_blank">
+          <i class="fab fa-instagram"></i>
+          <h3>Instagram</h3>
+          <p>Creative updates, ideas and personal highlights.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section reveal">
+      <div class="section-header">
+        <p class="section-tag">Skills</p>
+        <h2>I Am Perfect in this Languages.</h2>
+      </div>
+
+      <div class="skills-layout">
+        <div class="macbook glass-card">
+          <div class="macbook-top-bar">
+            <span></span><span></span><span></span>
+          </div>
+
+          <div class="macbook-screen-area">
+            <div class="screen-header">
+              <div class="screen-dot"></div>
+              <div class="screen-title">Developer Skills</div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HTML</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill html"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill css"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill js"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>C Language</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill c"></div></div>
+            </div>
+          </div>
+
+          <div class="macbook-bottom"></div>
+        </div>
+
+        <div class="skills-side glass-card">
+          <h3>What I focus on</h3>
+          <ul>
+            <li>Responsive Website Design</li>
+            <li>Modern Hero Sections</li>
+            <li>Particle and Scroll Animations</li>
+            <li>Interactive UI Elements</li>
+            <li>Clean Frontend Structure</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section reveal">
+      <div class="section-header">
+        <p class="section-tag">Projects</p>
+        <h2>Some things I’ve built</h2>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card glass-card">
+          <div class="project-icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3>Portfolio Website</h3>
+          <p>Personal portfolio with particles, typing effect and smooth UI animations.</p>
+          <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-icon"><i class="fa-solid fa-store"></i></div>
+          <h3>Computer Shop Website</h3>
+          <p>Modern responsive website concept for a computer accessories business.</p>
+          <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-icon"><i class="fa-solid fa-user-graduate"></i></div>
+          <h3>Student System</h3>
+          <p>Basic student management interface with structured data presentation.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience section reveal">
+      <div class="section-header">
+        <p class="section-tag">Experience Timeline</p>
+        <h2>My journey so far</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item glass-card">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2024</h3>
+            <p>Started learning web development fundamentals and frontend basics.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item glass-card">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2025</h3>
+            <p>Worked on responsive layouts, portfolio concepts and design-focused sections.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item glass-card">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2026</h3>
+            <p>Built interactive portfolio projects with particles, animations and stronger UI style.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section reveal">
+      <div class="section-header">
+        <p class="section-tag">Contact</p>
+        <h2>Let’s build something great</h2>
+      </div>
+
+      <div class="contact-wrapper glass-card">
+        <form class="contact-form">
+          <div class="input-group">
+            <input type="text" placeholder="Your Name" required>
+          </div>
+
+          <div class="input-group">
+            <input type="email" placeholder="Your Email" required>
+          </div>
+
+          <div class="input-group">
+            <textarea rows="6" placeholder="Your Message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn primary-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <button id="topBtn" title="Go to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <footer class="footer">
+    <p>© 2026 Dhairya Patel | All Rights Reserved</p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/dhairya-patel-891a383a7" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Dhairyapatel2" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/dhairya__ji/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
